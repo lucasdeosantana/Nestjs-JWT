@@ -7,4 +7,9 @@ export declare class UsersService {
         email: string;
     }>;
     findOne(email: string): Promise<import(".prisma/client").User>;
+    findById(id: number): Promise<{
+        token_remember: string;
+        id: number;
+        email: string;
+    }>;
 }

@@ -1,8 +1,9 @@
-import { Controller, Get, Request, Post, UseGuards, UnauthorizedException } from '@nestjs/common';
+import { Controller, Get, Request, Post, UseGuards, UnauthorizedException, SetMetadata } from '@nestjs/common';
 import { JwtAuthGuard } from './jwt-auth.guard';
 import { AuthService } from './auth.service';
-import { use } from 'passport';
 import { UsersService } from 'src/users/users.service';
+import { RolesGuard } from './roles.guard';
+import { Roles } from '../decorators/roles.decorator'
 
 @Controller('auth')
 export class AuthController {
@@ -23,8 +24,8 @@ export class AuthController {
   async create(@Request() req){
     return this.users.create(req.body.email, req.body.password)
   }
-
-  @UseGuards(JwtAuthGuard)
+  @Roles("test")
+  @UseGuards(JwtAuthGuard, RolesGuard)
   @Get('profile')
   getProfile(@Request() req) {
     return req.user;

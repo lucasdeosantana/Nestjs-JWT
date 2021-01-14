@@ -1442,8 +1442,8 @@
         "affectsGlobalScope": false
       },
       "../src/users/users.service.ts": {
-        "version": "86c38a6b8ee887113d9a35c80f5c9c890fffab6cbe8d587244050aa894212630",
-        "signature": "acc86d98965e0621bd0db22d5e2d397997c759bac16ad5a3cf683fe5dc9da6ab",
+        "version": "861406dc4acc05aec9551e09a461e6f2313728fe730dcf6065b234bff61db7af",
+        "signature": "20edf4de4a055bbd11d97156d318912d5dc4b9d1f61c439bfec3f8a1205bef2c",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jsonwebtoken/index.d.ts": {
@@ -1482,7 +1482,7 @@
         "affectsGlobalScope": false
       },
       "../src/auth/auth.service.ts": {
-        "version": "4bddf7af8d455c7c07f274fafa9cf277b9b5ecf82bfcf8f126d3df99ee39e1ca",
+        "version": "270bb871349818c54cd9a543a7e10e83f93bb4ac547e17342c5e451b71516c2f",
         "signature": "e1c142def405b46114ac2a7e195cf6825dd0a7ca8f51eee93825472b8b249810",
         "affectsGlobalScope": false
       },
@@ -1602,28 +1602,13 @@
         "affectsGlobalScope": false
       },
       "../src/auth/jwt.strategy.ts": {
-        "version": "ae9d2241ba41a9730741c01f3c1dc233a27c6bd40c138a0012cf01c04d98e71a",
-        "signature": "e364248bdb633b36040ba086cca80c79d9c438c55b77de4b68a36be03a933a2c",
+        "version": "9e3ae108a73d520669f9a77132fb07080cb7f4e6688781b611ce2415d3a12571",
+        "signature": "dff13dc79461f5837bb8becd6ae0facd30d30270a62dfe6ace03c3547c52c489",
         "affectsGlobalScope": false
       },
       "../src/auth/jwt-auth.guard.ts": {
-        "version": "86f01fc8f2c8dc7a5d29859dee9467ccb4a7611fc82a79beee69fc71efce4308",
+        "version": "dbcfbdc15fee418b0438c8fbe6a55fc575d8a8d152e7cbca95d621cd65f456e3",
         "signature": "baf608b3f1bf90782d8b003287213bceae5e9b31f56c2ce676e223ea85ea10b2",
-        "affectsGlobalScope": false
-      },
-      "../src/auth/auth.controller.ts": {
-        "version": "ea33098ff958f5d7aeb41051ca0f3a04dc35dc1e50a6cb6edddaac67a24fc472",
-        "signature": "3bb0689ec9a79e880093dd15ea1c542abb2652e2bec3fc861db938ce2d614f1d",
-        "affectsGlobalScope": false
-      },
-      "../src/auth/auth.module.ts": {
-        "version": "120807c96b830aa7f23f6bbf038f93da831ec527f74b6e5bdcf9234f25c449f5",
-        "signature": "2e5d258cf85349b02b015c3f1b8873c152d182c3819a7ccc3aff16fc3037a5fc",
-        "affectsGlobalScope": false
-      },
-      "../src/app.module.ts": {
-        "version": "bcb55f829231364576cc857269baf4278a9fec56c404d79316493dad10d2a822",
-        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
@@ -1804,6 +1789,31 @@
       "../node_modules/@nestjs/core/index.d.ts": {
         "version": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d",
         "signature": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/roles.guard.ts": {
+        "version": "16ac4cf5a0ec3bc01035fcce097b0ba09ba0e2c8d224e0e0e12b56c5cf7d0414",
+        "signature": "b1aab05840b99a111ac25ba2e1c6dcaebfa5e7bb7bbc2be7607d8097e0f438e4",
+        "affectsGlobalScope": false
+      },
+      "../src/decorators/roles.decorator.ts": {
+        "version": "96c1d87e767af52bd5bf8e67440cff4f9117e884f52d3f5121a7257a31ab9aa7",
+        "signature": "6254a33665d737200d7d984bf9572a8638f94d143f80a5a84b6250883e4b2022",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/auth.controller.ts": {
+        "version": "251362c3fe21b6e62fc873125b055423ff2a72ba35bb63e4126aa21fee7ab718",
+        "signature": "3bb0689ec9a79e880093dd15ea1c542abb2652e2bec3fc861db938ce2d614f1d",
+        "affectsGlobalScope": false
+      },
+      "../src/auth/auth.module.ts": {
+        "version": "120807c96b830aa7f23f6bbf038f93da831ec527f74b6e5bdcf9234f25c449f5",
+        "signature": "2e5d258cf85349b02b015c3f1b8873c152d182c3819a7ccc3aff16fc3037a5fc",
+        "affectsGlobalScope": false
+      },
+      "../src/app.module.ts": {
+        "version": "bcb55f829231364576cc857269baf4278a9fec56c404d79316493dad10d2a822",
+        "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
@@ -3486,9 +3496,10 @@
       ],
       "../src/auth/auth.controller.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/passport/index.d.ts",
         "../src/auth/auth.service.ts",
         "../src/auth/jwt-auth.guard.ts",
+        "../src/auth/roles.guard.ts",
+        "../src/decorators/roles.decorator.ts",
         "../src/users/users.service.ts"
       ],
       "../src/auth/auth.module.ts": [
@@ -3514,7 +3525,16 @@
       "../src/auth/jwt.strategy.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/passport/index.d.ts",
-        "../node_modules/@types/passport-jwt/index.d.ts"
+        "../node_modules/@types/passport-jwt/index.d.ts",
+        "../src/users/users.service.ts"
+      ],
+      "../src/auth/roles.guard.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/rxjs/index.d.ts"
+      ],
+      "../src/decorators/roles.decorator.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -4911,7 +4931,16 @@
         "../node_modules/@nestjs/passport/index.d.ts"
       ],
       "../src/auth/jwt.strategy.ts": [
-        "../node_modules/@types/passport-jwt/index.d.ts"
+        "../node_modules/@types/passport-jwt/index.d.ts",
+        "../src/users/users.service.ts"
+      ],
+      "../src/auth/roles.guard.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/rxjs/index.d.ts"
+      ],
+      "../src/decorators/roles.decorator.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
       ],
       "../src/prisma/prisma.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -5337,6 +5366,8 @@
       "../src/auth/auth.service.ts",
       "../src/auth/jwt-auth.guard.ts",
       "../src/auth/jwt.strategy.ts",
+      "../src/auth/roles.guard.ts",
+      "../src/decorators/roles.decorator.ts",
       "../src/main.ts",
       "../src/prisma/prisma.module.ts",
       "../src/prisma/prisma.service.ts",

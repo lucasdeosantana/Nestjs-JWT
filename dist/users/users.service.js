@@ -37,6 +37,17 @@ let UsersService = class UsersService {
     async findOne(email) {
         return this.prisma.user.findUnique({ where: { email } });
     }
+    async findById(id) {
+        return this.prisma.user.findUnique({
+            where: { id },
+            select: {
+                email: true,
+                id: true,
+                password: false,
+                token_remember: true
+            }
+        });
+    }
 };
 UsersService = __decorate([
     common_1.Injectable(),

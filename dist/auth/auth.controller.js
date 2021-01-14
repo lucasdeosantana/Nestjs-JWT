@@ -17,6 +17,8 @@ const common_1 = require("@nestjs/common");
 const jwt_auth_guard_1 = require("./jwt-auth.guard");
 const auth_service_1 = require("./auth.service");
 const users_service_1 = require("../users/users.service");
+const roles_guard_1 = require("./roles.guard");
+const roles_decorator_1 = require("../decorators/roles.decorator");
 let AuthController = class AuthController {
     constructor(authService, users) {
         this.authService = authService;
@@ -52,7 +54,8 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], AuthController.prototype, "create", null);
 __decorate([
-    common_1.UseGuards(jwt_auth_guard_1.JwtAuthGuard),
+    roles_decorator_1.Roles("test"),
+    common_1.UseGuards(jwt_auth_guard_1.JwtAuthGuard, roles_guard_1.RolesGuard),
     common_1.Get('profile'),
     __param(0, common_1.Request()),
     __metadata("design:type", Function),
